@@ -10,18 +10,18 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: "Security Architects",
   tagline: "DevSecOps",
-  favicon: "img/favicon.ico",
+  favicon: "img/SA.png",
 
   // Set the production url of your site here
-  url: "https://docusaurus-2.netlify.app",
+  url: "https://sec-ops-docs.vercel.app/",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "BenjaminBurton", // Usually your GitHub org/user name.
+  projectName: "SecOpsDocs", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -44,14 +44,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+            "https://github.com/BenjaminBurton/SecOpsDocs/blob/main/jsdocs/docs/intro.md",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+            "#",
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -64,7 +64,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: "img/docusaurus-social-card.jpg",
+      image: "img/SecOps2",
       navbar: {
         title: "",
         logo: {
@@ -76,7 +76,7 @@ const config = {
             type: "docSidebar",
             sidebarId: "tutorialSidebar",
             position: "right",
-            label: "iDocs",
+            label: "SecOpsDocs",
           },
           // { to: "/blog", label: "Blog", position: "left" },
           {
