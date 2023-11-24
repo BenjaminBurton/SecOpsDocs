@@ -1,0 +1,398 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #df461d;
+  --ifm-color-primary-dark: #c93f1a;
+  --ifm-color-primary-darker: #be3c19;
+  --ifm-color-primary-darkest: #9c3114;
+  --ifm-color-primary-light: #e45731;
+  --ifm-color-primary-lighter: #e6603c;
+  --ifm-color-primary-lightest: #ea7b5e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #df461d;
+  --ifm-color-primary-dark: #c93f1a;
+  --ifm-color-primary-darker: #be3c19;
+  --ifm-color-primary-darkest: #9c3114;
+  --ifm-color-primary-light: #e45731;
+  --ifm-color-primary-lighter: #e6603c;
+  --ifm-color-primary-lightest: #ea7b5e;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* h2 {
+  color: #DF461D;
+} */
+
+
+
+.hero-container {
+  display: flex;
+  justify-content: space-evenly
+}
+
+
+
+.hero-content-container {
+  color: var(--ifm-hero-text-color);
+  padding: 6rem 2rem
+}
+
+
+
+.hero-image__logo, .image-card__body, .openapi-explorer__details-outer-container {
+  padding: 1rem
+}
+
+/* doubles the row */
+.featured-cards-container {
+  grid-gap: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr
+}
+
+/* Creates a border around card sections */
+.featured-card-container {
+  border: 2px solid var(--ifm-toc-border-color);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  transition: .5s
+}
+
+/* transforms sections topic to uppercase */
+.featured-card-content__label, .text--uppercase {
+  text-transform: uppercase
+}
+
+/* creates divder between topic and section info */
+.featured-card-content__section-divider {
+  border: 1px solid;
+  margin-bottom: 1rem;
+  transition: .5s;
+  width: 3rem
+}
+
+.featured-card-content__description {
+  color: var(--ifm-color-emphasis-600);
+  margin-bottom: 0
+}
+
+/* divdes section into two columns */
+.featured-card__products-container {
+  grid-gap: 1rem;
+  --mask-size-content: calc(100% - var(--ifm-scrollbar-size)) 100%;
+  --mask-image-scrollbar: linear-gradient(#000, #000);
+  --mask-size-scrollbar: var(--ifm-scrollbar-size) 100%;
+  --mask-height: 32px;
+  --mask-image-content: linear-gradient(to bottom, transparent, #000 var(--mask-height), #000 calc(100% - var(--mask-height)), transparent);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  -webkit-mask-image: var(--mask-image-content), var(--mask-image-scrollbar);
+  mask-image: var(--mask-image-content), var(--mask-image-scrollbar);
+  -webkit-mask-position: 0 0, 100% 0;
+  mask-position: 0 0, 100% 0;
+  -webkit-mask-repeat: no-repeat, no-repeat;
+  mask-repeat: no-repeat, no-repeat;
+  -webkit-mask-size: var(--mask-size-content), var(--mask-size-scrollbar);
+  mask-size: var(--mask-size-content), var(--mask-size-scrollbar);
+  max-height: 300px;
+  overflow-y: auto;
+  padding-right: 1rem;
+  padding-top: 1.35rem
+}
+
+/* shows scrollbar w/out the lane */
+.featured-card__products-container::-webkit-scrollbar {
+  width: var(--ifm-scrollbar-size)
+}
+
+/* keeps columns straightened */
+.featured-card__products-container ul {
+  list-style: none;
+  padding-left: 0
+}
+
+/* shrinks doc icon to be beside the topic */
+.DocSearch-Button-Container, .featured-card__product-list-item, .openapi-schema__container, .theme-doc-sidebar-menu .theme-doc-sidebar-item-link-level-1.menu__list-item, .theme-doc-sidebar-menu .theme-doc-sidebar-item-link-level-2.menu__list-item {
+  align-items: center;
+  display: flex;
+}
+
+/* adds icon next to topic */
+.featured-card__product-list-item:before {
+  margin-right: .5rem;
+  margin-top: .25rem;
+  width: 20px
+}
+
+/* also adds icon next to topic */
+.featured-card__product-list-item.doc-icon:before {
+  content: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIgNTEyIiB4bWw6c3BhY2U9InByZXNlcnZlIj48c3R5bGU+LnN0MHtmaWxsOiNlM2UzZTN9PC9zdHlsZT48cGF0aCBjbGFzcz0ic3QwIiBkPSJNNDY0IDEyNi45IDM0MC4yIDMuMWMtMi0yLTQuNi0zLjEtNy40LTMuMUg5NS43Yy0yOCAwLTUwLjggMjIuOC01MC44IDUwLjh2NDEwLjRjMCAyOCAyMi44IDUwLjggNTAuOCA1MC44aDMyMC41YzI4IDAgNTAuOC0yMi44IDUwLjgtNTAuOHYtMzI3Yy4xLTIuNy0xLTUuNC0zLTcuM3pNMzQzLjMgMzUuN2w4OC4xIDg4LjFoLTU4LjJjLTggMC0xNS41LTMuMS0yMS4xLTguOC01LjYtNS42LTguOC0xMy4xLTguOC0yMS4xVjM1Ljd6bTEwMi45IDQyNS41YzAgMTYuNS0xMy40IDI5LjktMjkuOSAyOS45SDk1LjdjLTE2LjUgMC0yOS45LTEzLjQtMjkuOS0yOS45VjUwLjhjMC0xNi41IDEzLjQtMjkuOSAyOS45LTI5LjloMjI2LjZ2NzNjMCAxMy42IDUuMyAyNi4zIDE0LjkgMzUuOSA5LjYgOS42IDIyLjMgMTQuOSAzNS45IDE0LjloNzNsLjEgMzE2LjV6Ii8+PHBhdGggY2xhc3M9InN0MCIgZD0iTTI3NS4xIDM1MS41aC00LjdjLTUuOCAwLTEwLjQgNC43LTEwLjQgMTAuNHM0LjcgMTAuNCAxMC40IDEwLjRoNC43YzUuOCAwIDEwLjQtNC43IDEwLjQtMTAuNHMtNC42LTEwLjQtMTAuNC0xMC40ek0yMzYuNiAzNTEuNUgxMzUuMWMtNS44IDAtMTAuNCA0LjctMTAuNCAxMC40czQuNyAxMC40IDEwLjQgMTAuNGgxMDEuNWM1LjggMCAxMC40LTQuNyAxMC40LTEwLjRzLTQuNi0xMC40LTEwLjQtMTAuNHpNMzc2LjkgMzAzLjdIMTM1LjFjLTUuOCAwLTEwLjQgNC43LTEwLjQgMTAuNHM0LjcgMTAuNCAxMC40IDEwLjRoMjQxLjhjNS44IDAgMTAuNC00LjcgMTAuNC0xMC40cy00LjYtMTAuNC0xMC40LTEwLjR6TTM3Ni45IDI1NkgxMzUuMWMtNS44IDAtMTAuNCA0LjctMTAuNCAxMC40czQuNyAxMC40IDEwLjQgMTAuNGgyNDEuOGM1LjggMCAxMC40LTQuNyAxMC40LTEwLjRzLTQuNi0xMC40LTEwLjQtMTAuNHpNMzc2LjkgMjA4LjNIMTM1LjFjLTUuOCAwLTEwLjQgNC43LTEwLjQgMTAuNCAwIDUuOCA0LjcgMTAuNCAxMC40IDEwLjRoMjQxLjhjNS44IDAgMTAuNC00LjcgMTAuNC0xMC40cy00LjYtMTAuNC0xMC40LTEwLjR6Ii8+PC9zdmc+)
+}
+
+/* keeps card centered and contained  */
+.featured-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3rem
+}
+
+/* creates one long row */
+.featured-cards-container {
+  grid-template-columns: 1fr
+}
+
+/* removes scrollbar */
+.featured-card__products-container::-webkit-scrollbar-thumb {
+  background-color: var(--ifm-scrollbar-thumb-background-color);
+  border-radius: 1rem
+}
+
+.featured-card__products-container::--webkit-scrollbar-track {
+  background-color: transparent
+}
+
+@media (max-width:500px) {
+  .featured-card__products-container {
+    grid-template-columns: 1fr
+  }
+
+  .hero-header {
+    font-size: 1rem
+  }
+}
+
+/* gives space to column and the topics */
+.featured-card__product-group-label {
+  margin-bottom: 0;
+  font-weight: var(--ifm-font-weight-bold)
+}
+
+html[data-theme=light] .featured-card__product-list-item.api-doc-icon:before {
+  content: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMTUuMjggMTIyLjg4IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAxMTUuMjggMTIyLjg4IiB4bWw6c3BhY2U9InByZXNlcnZlIj48cGF0aCBkPSJNMjUuMzggNTdoNjQuODhWMzcuMzRINjkuNTljLTIuMTcgMC01LjE5LTEuMTctNi42Mi0yLjYtMS40My0xLjQzLTIuMy00LjAxLTIuMy02LjE3VjcuNjRIOC4xNWMtLjE4IDAtLjMyLjA5LS40MS4xOC0uMTUuMS0uMTkuMjMtLjE5LjQydjEwNi40NWMwIC4xNC4wOS4zMi4xOC40MS4wOS4xNC4yOC4xOC40MS4xOGg4MS41MWMuMTggMCAuMTctLjA5LjI3LS4xOC4xNC0uMDkuMzMtLjI4LjMzLS40MXYtMTEuMTZIMjUuMzhjLTQuMTQgMC03LjU2LTMuNC03LjU2LTcuNTZWNjQuNTVjMC00LjE1IDMuNC03LjU1IDcuNTYtNy41NXptMjUuNTcgMzEuNmgtOC43MWwtMS4yNSA0LjFoLTcuODVsOS4zNi0yNC44OGg4LjQxbDkuMzIgMjQuODhoLTguMDVsLTEuMjMtNC4xem0tMS42My01LjM4LTIuNzItOC45NC0yLjczIDguOTRoNS40NXptMTMuMzgtMTUuNGgxMi43OWMyLjc5IDAgNC44Ny42NiA2LjI2IDEuOTkgMS4zOCAxLjMzIDIuMDggMy4yMSAyLjA4IDUuNjYgMCAyLjUxLS43NiA0LjQ4LTIuMjcgNS45cy0zLjgyIDIuMTMtNi45MyAyLjEzaC00LjIydjkuMjFINjIuN1Y2Ny44MnptNy43MSAxMC42NGgxLjg5YzEuNDkgMCAyLjU0LS4yNiAzLjE0LS43OC42LS41Mi45LTEuMTguOS0xLjk4IDAtLjc4LS4yNi0xLjQ0LS43OS0xLjk5LS41Mi0uNTQtMS41MS0uODItMi45NS0uODJoLTIuMnY1LjU3aC4wMXpNODguMiA2Ny44Mmg3LjcxVjkyLjdIODguMlY2Ny44MnpNOTcuNzkgNTdoOS45M2M0LjE2IDAgNy41NiAzLjQxIDcuNTYgNy41NnYzMS40MmMwIDQuMTUtMy40MSA3LjU2LTcuNTYgNy41NmgtOS45M3YxMy41NWMwIDEuNjEtLjY0IDMuMDQtMS43IDQuMWE1Ljc0IDUuNzQgMCAwIDEtNC4xIDEuN0g1LjgxYy0xLjYxIDAtMy4wNC0uNjUtNC4xLTEuN2E1Ljc0IDUuNzQgMCAwIDEtMS43LTQuMVY1Ljg1YzAtMS42MS42NS0zLjA0IDEuNy00LjFhNS44MSA1LjgxIDAgMCAxIDQuMS0xLjdoNTguNzJjLjEzLS4wNS4yNy0uMDUuNDEtLjA1LjY1IDAgMS4yOS4yOCAxLjc1LjY5aC4wOWMuMDkuMDUuMTQuMDkuMjMuMThsMzAgMzAuMzZjLjUxLjUxLjg4IDEuMi44OCAxLjk4IDAgLjIzLS4wNS40MS0uMDkuNjVMOTcuNzkgNTd6TTY3LjUyIDI3Ljk3VjguOTRsMjEuNDMgMjEuN0g3MC4xOWMtLjc0IDAtMS4zOC0uMzItMS44OS0uNzgtLjQ2LS40Ni0uNzgtMS4xNS0uNzgtMS44OXoiIHN0eWxlPSJmaWxsLXJ1bGU6ZXZlbm9kZDtjbGlwLXJ1bGU6ZXZlbm9kZCIvPjwvc3ZnPg==)
+}
+
+html[data-theme=light] .featured-card__product-list-item.doc-icon:before {
+  content: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIuMDAxIDUxMi4wMDEiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMi4wMDEgNTEyLjAwMSIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBhdGggZD0iTTQ2My45OTYgMTI2Ljg2NCAzNDAuMTkyIDMuMDYxQTEwLjQ1MiAxMC40NTIgMCAwIDAgMzMyLjgwMyAwSDk1LjcyNkM2Ny43MjQgMCA0NC45NDQgMjIuNzgyIDQ0Ljk0NCA1MC43ODR2NDEwLjQzNGMwIDI4LjAwMSAyMi43ODEgNTAuNzgzIDUwLjc4MyA1MC43ODNoMzIwLjU0N2MyOC4wMDIgMCA1MC43ODMtMjIuNzgxIDUwLjc4My01MC43ODNWMTM0LjI1M2ExMC40NTggMTAuNDU4IDAgMCAwLTMuMDYxLTcuMzg5ek0zNDMuMjU1IDM1LjY3OWw4OC4xMjcgODguMTI2SDM3My4xNGMtNy45ODQgMC0xNS40OS0zLjEwOS0yMS4xMzQtOC43NTMtNS42NDMtNS42NDMtOC43NTItMTMuMTQ4LTguNzUxLTIxLjEzMVYzNS42Nzl6bTEwMi45MDMgNDI1LjUzOGMwIDE2LjQ3OS0xMy40MDYgMjkuODg1LTI5Ljg4NCAyOS44ODVIOTUuNzI2Yy0xNi40NzkgMC0yOS44ODUtMTMuNDA2LTI5Ljg4NS0yOS44ODVWNTAuNzg0Yy4wMDEtMTYuNDc5IDEzLjQwNy0yOS44ODYgMjkuODg1LTI5Ljg4NmgyMjYuNjMxdjczLjAyMWMtLjAwMiAxMy41NjUgNS4yOCAyNi4zMTggMTQuODcxIDM1LjkwOSA5LjU5MiA5LjU5MiAyMi4zNDUgMTQuODc0IDM1LjkxMSAxNC44NzRoNzMuMDE4djMxNi41MTV6Ii8+PHBhdGggZD0iTTI3NS4wOTIgMzUxLjQ5MmgtNC42NzhjLTUuNzcgMC0xMC40NDkgNC42NzgtMTAuNDQ5IDEwLjQ0OXM0LjY3OSAxMC40NDkgMTAuNDQ5IDEwLjQ0OWg0LjY3OGM1Ljc3IDAgMTAuNDQ5LTQuNjc4IDEwLjQ0OS0xMC40NDlzLTQuNjc5LTEwLjQ0OS0xMC40NDktMTAuNDQ5ek0yMzYuNjEgMzUxLjQ5MkgxMzUuMTE4Yy01Ljc3IDAtMTAuNDQ5IDQuNjc4LTEwLjQ0OSAxMC40NDlzNC42NzkgMTAuNDQ5IDEwLjQ0OSAxMC40NDlIMjM2LjYxYzUuNzcgMCAxMC40NDktNC42NzggMTAuNDQ5LTEwLjQ0OXMtNC42NzgtMTAuNDQ5LTEwLjQ0OS0xMC40NDl6TTM3Ni44ODIgMzAzLjc0N0gxMzUuMTE5Yy01Ljc3IDAtMTAuNDQ5IDQuNjc4LTEwLjQ0OSAxMC40NDlzNC42NzkgMTAuNDQ5IDEwLjQ0OSAxMC40NDloMjQxLjc2M2M1Ljc3IDAgMTAuNDQ5LTQuNjc4IDEwLjQ0OS0xMC40NDlzLTQuNjc5LTEwLjQ0OS0xMC40NDktMTAuNDQ5ek0zNzYuODgyIDI1NkgxMzUuMTE5Yy01Ljc3IDAtMTAuNDQ5IDQuNjc4LTEwLjQ0OSAxMC40NDlzNC42NzkgMTAuNDQ5IDEwLjQ0OSAxMC40NDloMjQxLjc2M2M1Ljc3IDAgMTAuNDQ5LTQuNjc4IDEwLjQ0OS0xMC40NDlTMzgyLjY1MiAyNTYgMzc2Ljg4MiAyNTZ6TTM3Ni44ODIgMjA4LjI1NUgxMzUuMTE5Yy01Ljc3IDAtMTAuNDQ5IDQuNjc4LTEwLjQ0OSAxMC40NDlzNC42NzkgMTAuNDQ5IDEwLjQ0OSAxMC40NDloMjQxLjc2M2M1Ljc3IDAgMTAuNDQ5LTQuNjc4IDEwLjQ0OS0xMC40NDlzLTQuNjc5LTEwLjQ0OS0xMC40NDktMTAuNDQ5eiIvPjwvc3ZnPg==)
+}
+
+.featured-card__product-list-item.api-doc-icon:before {
+  content: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMTUuMjggMTIyLjg4IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAxMTUuMjggMTIyLjg4IiB4bWw6c3BhY2U9InByZXNlcnZlIj48cGF0aCBkPSJNMjUuMzggNTdoNjQuODhWMzcuMzRINjkuNTljLTIuMTcgMC01LjE5LTEuMTctNi42Mi0yLjYtMS40My0xLjQzLTIuMy00LjAxLTIuMy02LjE3VjcuNjRIOC4xNWMtLjE4IDAtLjMyLjA5LS40MS4xOC0uMTUuMS0uMTkuMjMtLjE5LjQydjEwNi40NWMwIC4xNC4wOS4zMi4xOC40MS4wOS4xNC4yOC4xOC40MS4xOGg4MS41MWMuMTggMCAuMTctLjA5LjI3LS4xOC4xNC0uMDkuMzMtLjI4LjMzLS40MXYtMTEuMTZIMjUuMzhjLTQuMTQgMC03LjU2LTMuNC03LjU2LTcuNTZWNjQuNTVjMC00LjE1IDMuNC03LjU1IDcuNTYtNy41NXptMjUuNTcgMzEuNmgtOC43MWwtMS4yNSA0LjFoLTcuODVsOS4zNi0yNC44OGg4LjQxbDkuMzIgMjQuODhoLTguMDVsLTEuMjMtNC4xem0tMS42My01LjM4LTIuNzItOC45NC0yLjczIDguOTRoNS40NXptMTMuMzgtMTUuNGgxMi43OWMyLjc5IDAgNC44Ny42NiA2LjI2IDEuOTkgMS4zOCAxLjMzIDIuMDggMy4yMSAyLjA4IDUuNjYgMCAyLjUxLS43NiA0LjQ4LTIuMjcgNS45cy0zLjgyIDIuMTMtNi45MyAyLjEzaC00LjIydjkuMjFINjIuN1Y2Ny44MnptNy43MSAxMC42NGgxLjg5YzEuNDkgMCAyLjU0LS4yNiAzLjE0LS43OC42LS41Mi45LTEuMTguOS0xLjk4IDAtLjc4LS4yNi0xLjQ0LS43OS0xLjk5LS41Mi0uNTQtMS41MS0uODItMi45NS0uODJoLTIuMnY1LjU3aC4wMXpNODguMiA2Ny44Mmg3LjcxVjkyLjdIODguMlY2Ny44MnpNOTcuNzkgNTdoOS45M2M0LjE2IDAgNy41NiAzLjQxIDcuNTYgNy41NnYzMS40MmMwIDQuMTUtMy40MSA3LjU2LTcuNTYgNy41NmgtOS45M3YxMy41NWMwIDEuNjEtLjY0IDMuMDQtMS43IDQuMWE1Ljc0IDUuNzQgMCAwIDEtNC4xIDEuN0g1LjgxYy0xLjYxIDAtMy4wNC0uNjUtNC4xLTEuN2E1Ljc0IDUuNzQgMCAwIDEtMS43LTQuMVY1Ljg1YzAtMS42MS42NS0zLjA0IDEuNy00LjFhNS44MSA1LjgxIDAgMCAxIDQuMS0xLjdoNTguNzJjLjEzLS4wNS4yNy0uMDUuNDEtLjA1LjY1IDAgMS4yOS4yOCAxLjc1LjY5aC4wOWMuMDkuMDUuMTQuMDkuMjMuMThsMzAgMzAuMzZjLjUxLjUxLjg4IDEuMi44OCAxLjk4IDAgLjIzLS4wNS40MS0uMDkuNjVMOTcuNzkgNTd6TTY3LjUyIDI3Ljk3VjguOTRsMjEuNDMgMjEuN0g3MC4xOWMtLjc0IDAtMS4zOC0uMzItMS44OS0uNzgtLjQ2LS40Ni0uNzgtMS4xNS0uNzgtMS44OXoiIHN0eWxlPSJmaWxsOiNlM2UzZTM7ZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xpcC1ydWxlOmV2ZW5vZGQiLz48L3N2Zz4=)
+}
+
+.featured-card__product-list {
+  margin-top: .25rem
+}
+
+.hero-background-wrapper, .homepage-banner-container {
+  margin-left: calc(-50vw + 50% + 10px);
+  width: calc(100vw - 20px)
+}
+
+.hero-background-wrapper {
+  border-bottom: 1px solid var(--ifm-color-emphasis-100);
+  margin-bottom: 3rem
+}
+
+html[data-theme=dark] .swfw-landing-page .product-hero-container {
+  border-bottom: 0
+}
+
+.swfw-landing-page .product-hero-container {
+  margin-left: unset;
+  min-height: 100px;
+  padding: 2em 0;
+  width: unset
+}
+
+html[data-theme=dark] .modules-container, html[data-theme=dark] .product-hero-container, html[data-theme=dark] .providers-container, html[data-theme=dark] .use-cases-container {
+  border-bottom: 1px solid var(--ifm-color-emphasis-100)
+}
+
+.product-hero-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-left: calc(50% - 50vw);
+  min-height: 500px;
+  width: 100vw
+}
+
+@media (min-width:768px) {
+  .swfw-landing-page .product-hero-container {
+    padding: 3em 0
+  }
+
+  .swfw-landing-page .product-hero__inner-content {
+    flex-direction: row
+  }
+
+  .swfw-landing-page .product-hero__inner-left {
+    width: 50%
+  }
+
+  .swfw-landing-page .clouds-container {
+    align-items: stretch;
+    flex-direction: row;
+  }
+
+  .swfw-landing-page .clouds-container .cloud-card {
+    max-width: 100%
+  }
+
+  .swfw-landing-page .container {
+    flex-wrap: nowrap;
+  }
+
+  .swfw-landing-page .link-list {
+    flex: 0 0 22%;
+  }
+}
+
+.hero-header-container, .openapi-markdown__details-summary-mime {
+  display: flex;
+}
+
+@media (max-width:760px) {
+  .hero-header-container {
+    justify-content: center
+  }
+}
+
+.hero-header-container, .openapi-markdown__details-summary-mime {
+  display: flex;
+}
+
+.hero-header {
+  -webkit-animation: 2.5s steps(40) c, .75s step-end infinite d;
+  animation: 2.5s steps(40) c, .75s step-end infinite d;
+  border-right: .15em solid var(--ifm-color-main);
+  color: var(--ifm-color-emphasis-900);
+  overflow: hidden;
+  white-space: nowrap
+}
+
+@media (max-width:760px) {
+  .hero-header-container {
+    justify-content: center
+  }
+}
+
+@media (max-width:500px) {
+  .featured-card__products-container {
+    grid-template-columns: 1fr
+  }
+
+  .hero-header {
+    font-size: 1rem
+  }
+}
+
+/* UNNECCESSARY */
+
+.cloud-card .tab-item__link :hover, .featured-card-container.partner-integrations a:hover, .hero-colored-text, .heroProjectKeywords_uRRc, .inner-left__header span, .toolCardFooter_PGI2 span {
+  color: var(--ifm-color-main)
+}
+
+.featuredContainer_cRXc {
+  scroll-margin-top: 5vh
+}
+
+
+.featured-card-container.network-security:hover, .featured-card-container.network-security:hover .featured-card-content__section-divider, .navbar-doc-items-container .navbar-doc-items__section-divider.network-security {
+  border-color: var(--ifm-color-panos)
+}
+
+.featured-card-container.network-security:hover, .featured-card-container.network-security:hover .featured-card-content__section-divider, .navbar-doc-items-container .navbar-doc-items__section-divider.network-security {
+  border-color: var(--ifm-color-panos)
+}
+
+.featured-card-container.security-operations:hover, .featured-card-container.security-operations:hover .featured-card-content__section-divider, .navbar-doc-items-container .navbar-doc-items__section-divider.security-operations {
+  border-color: var(--ifm-color-cortex)
+}
+
+.featured-card-container.cloud-native-security:hover, .featured-card-container.cloud-native-security:hover .featured-card-content__section-divider, .featured-card-container.sase:hover, .featured-card-container.sase:hover .featured-card-content__section-divider, .navbar-doc-items-container .navbar-doc-items__section-divider.cloud-native-security, .navbar-doc-items-container .navbar-doc-items__section-divider.sase {
+  border-color: var(--ifm-color-prisma)
+}
+
+html[data-theme=light] .dropdown-product-group-list .dropdown__link.network-security:hover, html[data-theme=light] .featured-card-container.network-security a:hover {
+  color: var(--ifm-color-panos-dark)
+}
+
+html[data-theme=light] .dropdown-product-group-list .dropdown__link.cloud-native-security:hover, html[data-theme=light] .dropdown-product-group-list .dropdown__link.sase:hover, html[data-theme=light] .featured-card-container.cloud-native-security a:hover, html[data-theme=light] .featured-card-container.sase a:hover {
+  color: var(--ifm-color-prisma-dark)
+}
+
+html[data-theme=light] .dropdown-product-group-list .dropdown__link.security-operations:hover, html[data-theme=light] .featured-card-container.security-operations a:hover {
+  color: var(--ifm-color-cortex-dark)
+}
+
+.dropdown-product-group-list .dropdown__link.network-security:hover, .featured-card-container.network-security a:hover {
+  color: var(--ifm-color-panos)
+}
+
+.dropdown-product-group-list .dropdown__link.cloud-native-security:hover, .dropdown-product-group-list .dropdown__link.sase:hover, .featured-card-container.cloud-native-security a:hover, .featured-card-container.sase a:hover {
+  color: var(--ifm-color-prisma)
+}
+
+.dropdown-product-group-list .dropdown__link.security-operations:hover, .featured-card-container.security-operations a:hover {
+  color: var(--ifm-color-cortex)
+}
+
+.cloud-card .tab-item__link :hover, .featured-card-container.partner-integrations a:hover, .hero-colored-text, .heroProjectKeywords_uRRc, .inner-left__header span, .toolCardFooter_PGI2 span {
+  color: var(--ifm-color-main)
+}
+
+html[data-theme=light] .featured-card-container {
+  background-color: var(--ifm-color-emphasis-0);
+  border-color: var(--ifm-color-emphasis-100)
+}
+
+.featured-card-content__label, .text--uppercase {
+  text-transform: uppercase
+}
+
+.featured-card-container.network-security:hover, .featured-card-container.network-security:hover .featured-card-content__section-divider, .navbar-doc-items-container .navbar-doc-items__section-divider.network-security {
+  border-color: var(--ifm-color-panos)
+}
+
+.featured-card-container.security-operations:hover, .featured-card-container.security-operations:hover .featured-card-content__section-divider, .navbar-doc-items-container .navbar-doc-items__section-divider.security-operations {
+  border-color: var(--ifm-color-cortex)
+}
+
+.featured-card-container.cloud-native-security:hover, .featured-card-container.cloud-native-security:hover .featured-card-content__section-divider, .featured-card-container.sase:hover, .featured-card-container.sase:hover .featured-card-content__section-divider, .navbar-doc-items-container .navbar-doc-items__section-divider.cloud-native-security, .navbar-doc-items-container .navbar-doc-items__section-divider.sase {
+  border-color: var(--ifm-color-prisma)
+}
+
+.featured-card-content__section-divider {
+  border: 1px solid;
+  margin-bottom: 1rem;
+  transition: .5s;
+  width: 3rem
+}
+
+.featured-card-content__description {
+  color: var(--ifm-color-emphasis-600);
+  margin-bottom: 0
+}
+
+.featured-card-container.network-security:hover, .featured-card-container.network-security:hover .featured-card-content__section-divider, .navbar-doc-items-container .navbar-doc-items__section-divider.network-security {
+  border-color: var(--ifm-color-panos)
+}
+
+.featured-card-container.security-operations:hover, .featured-card-container.security-operations:hover .featured-card-content__section-divider, .navbar-doc-items-container .navbar-doc-items__section-divider.security-operations {
+  border-color: var(--ifm-color-cortex)
+}
+
+.featured-card-container.cloud-native-security:hover, .featured-card-container.cloud-native-security:hover .featured-card-content__section-divider, .featured-card-container.sase:hover, .featured-card-container.sase:hover .featured-card-content__section-divider, .navbar-doc-items-container .navbar-doc-items__section-divider.cloud-native-security, .navbar-doc-items-container .navbar-doc-items__section-divider.sase {
+  border-color: var(--ifm-color-prisma)
+}
