@@ -54,11 +54,11 @@
 }
 
 /* doubles the row */
-/* .featured-cards-container {
+.featured-cards-container {
   grid-gap: 2rem;
   display: grid;
   grid-template-columns: 1fr 1fr
-} */
+}
 
 /* Creates a border around card sections */
 .featured-card-container {
@@ -147,9 +147,9 @@
 }
 
 /* creates one long row */
-.featured-cards-container {
+/* .featured-cards-container {
   grid-template-columns: 1fr
-}
+} */
 
 /* removes scrollbar */
 .featured-card__products-container::-webkit-scrollbar-thumb {
