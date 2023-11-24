@@ -464,8 +464,7 @@ export default function Home() {
                   </h2>
                   <div class="featured-card-content__section-divider"></div>
                   <p class="featured-card-content__description">
-                    Browse reference docs, tutorials, and get a comprehensive
-                    understanding.
+                    Discover Prisma Cloud, Prisma Access, Prisma SaaS && Prisma SD-WAN
                   </p>
                   <div class="featured-card__products-container">
                     <div class="feature-card__left-column">
@@ -834,8 +833,7 @@ export default function Home() {
                   </h2>
                   <div class="featured-card-content__section-divider"></div>
                   <p class="featured-card-content__description">
-                    Discover Prisma Cloud, Prisma Access, Prisma SaaS and Prisma
-                    SD-WAN.
+                    Discover Cortex XDR, Cortx XSOAR Threat IQ Management, Cortex Xpanse && Cortex XSIAM.
                   </p>
                   <div class="featured-card__products-container">
                     <div class="feature-card__left-column">
