@@ -297,6 +297,31 @@ export default function Home() {
                         </ul>
                       </div>
                     </div>
+                    <div class="feature-card__right-column">
+                      <div class="featured-card__product-container">
+                        <h3 class="featured-card__product-group-label">
+                          SASE Fundamentals
+                        </h3>
+                        <ul class="featured-card__product-list">
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a
+                              class="featured-card__product-link"
+                              href="https://sec-ops-docs.vercel.app/docs/intro"
+                            >
+                              Creating a Zero Trust Environment
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a
+                              class="featured-card__product-link"
+                              href="https://sec-ops-docs.vercel.app/docs/intro"
+                            >
+                              Configure HIP for Global Protect
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
