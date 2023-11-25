@@ -297,7 +297,7 @@ export default function Home() {
                         </ul>
                       </div>
                     </div>
-                    <div class="feature-card__right-column">
+                    <div class="feature-card__left-column">
                       <div class="featured-card__product-container">
                         <h3 class="featured-card__product-group-label">
                           SASE Fundamentals
