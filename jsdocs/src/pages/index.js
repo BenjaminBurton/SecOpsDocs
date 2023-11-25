@@ -46,7 +46,7 @@ export default function Home() {
                           <li class="featured-card__product-list-item doc-icon">
                             <a
                               class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
+                              href="https://sec-ops-docs.vercel.app/docs/cybersecurity-fundamentals/configuring-tcp-ip"
                             >
                               Configure TCP/IP && Virtual Router
                             </a>
@@ -54,7 +54,7 @@ export default function Home() {
                           <li class="featured-card__product-list-item doc-icon">
                             <a
                               class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
+                              href="https://sec-ops-docs.vercel.app/docs/cybersecurity-fundamentals/malware-analysis"
                             >
                               Malware Analysis
                             </a>
@@ -62,7 +62,7 @@ export default function Home() {
                           <li class="featured-card__product-list-item doc-icon">
                             <a
                               class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
+                              href="https://sec-ops-docs.vercel.app/docs/cybersecurity-fundamentals/zero-trust"
                             >
                               Creating a Zero Trust Enviornment
                             </a>
@@ -70,7 +70,7 @@ export default function Home() {
                           <li class="featured-card__product-list-item doc-icon">
                             <a
                               class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
+                              href="https://sec-ops-docs.vercel.app/docs/cybersecurity-fundamentals/config-auth"
                             >
                               Configuring Authentication
                             </a>
@@ -78,7 +78,7 @@ export default function Home() {
                           <li class="featured-card__product-list-item doc-icon">
                             <a
                               class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
+                              href="https://sec-ops-docs.vercel.app/docs/cybersecurity-fundamentals/2FA-secure-firewall"
                             >
                               Using Two-Factor Authentication
                             </a>
@@ -86,7 +86,7 @@ export default function Home() {
                           <li class="featured-card__product-list-item doc-icon">
                             <a
                               class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
+                              href="https://sec-ops-docs.vercel.app/docs/cybersecurity-fundamentals/trusted-apps"
                             >
                               Allowing Only Trusted Applications
                             </a>
@@ -103,7 +103,7 @@ export default function Home() {
                           <li class="featured-card__product-list-item doc-icon">
                             <a
                               class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
+                              href="https://sec-ops-docs.vercel.app/docs/network-security/DHCP"
                             >
                               Configuring DHCP
                             </a>
@@ -111,7 +111,7 @@ export default function Home() {
                           <li class="featured-card__product-list-item doc-icon">
                             <a
                               class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
+                              href="https://sec-ops-docs.vercel.app/docs/network-security/config-virtual-ip"
                             >
                               Configuring Virtual IP Addresses
                             </a>
@@ -119,7 +119,7 @@ export default function Home() {
                           <li class="featured-card__product-list-item doc-icon">
                             <a
                               class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
+                              href="https://sec-ops-docs.vercel.app/docs/network-security/packet-captures"
                             >
                               Creating Packet Captures
                             </a>
@@ -127,7 +127,7 @@ export default function Home() {
                           <li class="featured-card__product-list-item doc-icon">
                             <a
                               class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
+                              href="https://sec-ops-docs.vercel.app/docs/network-security/analyzing-packets"
                             >
                               Analyzing Packet Captures
                             </a>
@@ -135,7 +135,7 @@ export default function Home() {
                           <li class="featured-card__product-list-item doc-icon">
                             <a
                               class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
+                              href="https://sec-ops-docs.vercel.app/docs/network-security/managing-certs"
                             >
                               Managing Certificates
                             </a>
@@ -143,7 +143,7 @@ export default function Home() {
                           <li class="featured-card__product-list-item doc-icon">
                             <a
                               class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
+                              href="https://sec-ops-docs.vercel.app/docs/network-security/decrypt-ssh-traffic"
                             >
                               Decrypting SSH Traffic
                             </a>
@@ -151,7 +151,7 @@ export default function Home() {
                           <li class="featured-card__product-list-item doc-icon">
                             <a
                               class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
+                              href="https://sec-ops-docs.vercel.app/docs/network-security/decrypt-in-SSL-Traffic"
                             >
                               Decrypting SSL Inbound Traffic
                             </a>
@@ -159,7 +159,7 @@ export default function Home() {
                           <li class="featured-card__product-list-item doc-icon">
                             <a
                               class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
+                              href="https://sec-ops-docs.vercel.app/docs/network-security/firewall-logs"
                             >
                               Backing up Firewall Logs
                             </a>
@@ -176,7 +176,7 @@ export default function Home() {
                           <li class="featured-card__product-list-item doc-icon">
                             <a
                               class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
+                              href="https://sec-ops-docs.vercel.app/docs/cloud-native-security/protect-sense-data"
                             >
                               Protecting Sensitive Data
                             </a>
@@ -184,7 +184,7 @@ export default function Home() {
                           <li class="featured-card__product-list-item doc-icon">
                             <a
                               class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
+                              href="https://sec-ops-docs.vercel.app/docs/cloud-native-security/prevnt-threat-file-blk"
                             >
                               Preventing Internet Threats w/ File Blocking
                             </a>
@@ -192,7 +192,7 @@ export default function Home() {
                           <li class="featured-card__product-list-item doc-icon">
                             <a
                               class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
+                              href="https://sec-ops-docs.vercel.app/docs/cloud-native-security/container-security"
                             >
                               Container Network Security
                             </a>
@@ -200,7 +200,7 @@ export default function Home() {
                           <li class="featured-card__product-list-item doc-icon">
                             <a
                               class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
+                              href="https://sec-ops-docs.vercel.app/docs/cloud-native-security/deny-intl-attackers"
                             >
                               Denying International Attackers
                             </a>
@@ -208,7 +208,7 @@ export default function Home() {
                           <li class="featured-card__product-list-item doc-icon">
                             <a
                               class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
+                              href="https://sec-ops-docs.vercel.app/docs/cloud-native-security/config-HIP"
                             >
                               Configuring HIP for Global Protect
                             </a>
@@ -216,7 +216,7 @@ export default function Home() {
                           <li class="featured-card__product-list-item doc-icon">
                             <a
                               class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
+                              href="https://sec-ops-docs.vercel.app/docs/cloud-native-security/container-scan"
                             >
                               Container Vulnerability Scanning
                             </a>
@@ -233,7 +233,7 @@ export default function Home() {
                           <li class="featured-card__product-list-item doc-icon">
                             <a
                               class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
+                              href="https://sec-ops-docs.vercel.app/docs/security-operations/net-traffic-analysis"
                             >
                               Network Traffic Analysis
                             </a>
@@ -241,7 +241,7 @@ export default function Home() {
                           <li class="featured-card__product-list-item doc-icon">
                             <a
                               class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
+                              href="https://sec-ops-docs.vercel.app/docs/security-operations/app-comm-center"
                             >
                               Application Command Center to Find Threats
                             </a>
@@ -249,7 +249,7 @@ export default function Home() {
                           <li class="featured-card__product-list-item doc-icon">
                             <a
                               class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
+                              href="https://sec-ops-docs.vercel.app/docs/security-operations/analyze-firewall-logs"
                             >
                               Analyzing Firewall Logs
                             </a>
@@ -257,7 +257,7 @@ export default function Home() {
                           <li class="featured-card__product-list-item doc-icon">
                             <a
                               class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
+                              href="https://sec-ops-docs.vercel.app/docs/security-operations/log-forward-2-linux"
                             >
                               Log Forwarding to Linux
                             </a>
@@ -265,7 +265,7 @@ export default function Home() {
                           <li class="featured-card__product-list-item doc-icon">
                             <a
                               class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
+                              href="https://sec-ops-docs.vercel.app/docs/security-operations/stop-reconn-attks"
                             >
                               Stopping Reconnaissance Attacks
                             </a>
@@ -273,7 +273,7 @@ export default function Home() {
                           <li class="featured-card__product-list-item doc-icon">
                             <a
                               class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
+                              href="https://sec-ops-docs.vercel.app/docs/security-operations/secure-endpoints"
                             >
                               Securing Endpoint using Vulnerability Profiles
                             </a>
@@ -281,7 +281,7 @@ export default function Home() {
                           <li class="featured-card__product-list-item doc-icon">
                             <a
                               class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
+                              href="https://sec-ops-docs.vercel.app/docs/security-operations/threat-intelligence"
                             >
                               Threat Intelligence
                             </a>
@@ -289,7 +289,7 @@ export default function Home() {
                           <li class="featured-card__product-list-item doc-icon">
                             <a
                               class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
+                              href="https://sec-ops-docs.vercel.app/docs/security-operations/dynamic-block-list"
                             >
                               Using Dynamic Block Lists
                             </a>
@@ -306,7 +306,7 @@ export default function Home() {
                           <li class="featured-card__product-list-item doc-icon">
                             <a
                               class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
+                              href="https://sec-ops-docs.vercel.app/docs/SASE-fundamentals/SASE-Zero-trust"
                             >
                               Creating a Zero Trust Environment
                             </a>
@@ -314,7 +314,7 @@ export default function Home() {
                           <li class="featured-card__product-list-item doc-icon">
                             <a
                               class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
+                              href="https://sec-ops-docs.vercel.app/docs/SASE-fundamentals/SASE-HIP-config"
                             >
                               Configure HIP for Global Protect
                             </a>
