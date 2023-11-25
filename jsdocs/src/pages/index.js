@@ -294,62 +294,6 @@ export default function Home() {
                               Using Dynamic Block Lists
                             </a>
                           </li>
-                          <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
-                            >
-                              Endpoint Detection && Response
-                            </a>
-                          </li>
-                          <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
-                            >
-                              Threat Intelligence
-                            </a>
-                          </li>
-                          <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
-                            >
-                              Cortex Platform
-                            </a>
-                          </li>
-                          <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
-                            >
-                              Cortex XDR
-                            </a>
-                          </li>
-                          <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
-                            >
-                              Cortex XSOAR
-                            </a>
-                          </li>
-                          <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
-                            >
-                              Threat Intelligence Management (TIM)
-                            </a>
-                          </li>
-                          <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
-                            >
-                              Cortex XSIAM
-                            </a>
-                          </li>
                         </ul>
                       </div>
                     </div>
