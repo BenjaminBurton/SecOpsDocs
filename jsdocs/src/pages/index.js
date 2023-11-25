@@ -48,7 +48,7 @@ export default function Home() {
                               class="featured-card__product-link"
                               href="https://sec-ops-docs.vercel.app/docs/intro"
                             >
-                              Modern Cybersecurity Landscape
+                              Configure TCP/IP && Virtual Router
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
@@ -56,7 +56,7 @@ export default function Home() {
                               class="featured-card__product-link"
                               href="https://sec-ops-docs.vercel.app/docs/intro"
                             >
-                              Attacker Profiles
+                              Malware Analysis
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
@@ -64,7 +64,7 @@ export default function Home() {
                               class="featured-card__product-link"
                               href="https://sec-ops-docs.vercel.app/docs/intro"
                             >
-                              Cyberattack Lifecycle
+                              Creating a Zero Trust Enviornment
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
@@ -72,7 +72,7 @@ export default function Home() {
                               class="featured-card__product-link"
                               href="https://sec-ops-docs.vercel.app/docs/intro"
                             >
-                              Malware && Advanced Malware
+                              Configuring Authentication
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
@@ -80,7 +80,7 @@ export default function Home() {
                               class="featured-card__product-link"
                               href="https://sec-ops-docs.vercel.app/docs/intro"
                             >
-                              Ransomware
+                              Using Two-Factor Authentication
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
@@ -88,79 +88,7 @@ export default function Home() {
                               class="featured-card__product-link"
                               href="https://sec-ops-docs.vercel.app/docs/intro"
                             >
-                              Vulnerabilities
-                            </a>
-                          </li>
-                          <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
-                            >
-                              Exploits
-                            </a>
-                          </li>
-                          <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
-                            >
-                              Cyberattack Techniques
-                            </a>
-                          </li>
-                          <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
-                            >
-                              APTs && WiFi Vulnerabilities
-                            </a>
-                          </li>
-                          <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
-                            >
-                              Security Models
-                            </a>
-                          </li>
-                          <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
-                            >
-                              Perimiter Based Security
-                            </a>
-                          </li>
-                          <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
-                            >
-                              Zero Trust && Implementation
-                            </a>
-                          </li>
-                          <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
-                            >
-                              Cybercrime
-                            </a>
-                          </li>
-                          <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
-                            >
-                              Security Threats
-                            </a>
-                          </li>
-                          <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
-                            >
-                              Prevention Architecture
+                              Allowing Only Trusted Applications
                             </a>
                           </li>
                         </ul>
@@ -177,7 +105,7 @@ export default function Home() {
                               class="featured-card__product-link"
                               href="https://sec-ops-docs.vercel.app/docs/intro"
                             >
-                              Devices && Connection
+                              Configuring DHCP
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
@@ -185,7 +113,7 @@ export default function Home() {
                               class="featured-card__product-link"
                               href="https://sec-ops-docs.vercel.app/docs/intro"
                             >
-                              Routing
+                              Configuring Virtual IP Addresses
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
@@ -193,7 +121,7 @@ export default function Home() {
                               class="featured-card__product-link"
                               href="https://sec-ops-docs.vercel.app/docs/intro"
                             >
-                              Networks && Topologies
+                              Creating Packet Captures
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
@@ -201,7 +129,7 @@ export default function Home() {
                               class="featured-card__product-link"
                               href="https://sec-ops-docs.vercel.app/docs/intro"
                             >
-                              Domain Name System (DNS)
+                              Analyzing Packet Captures
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
@@ -209,7 +137,7 @@ export default function Home() {
                               class="featured-card__product-link"
                               href="https://sec-ops-docs.vercel.app/docs/intro"
                             >
-                              Internet of Things (IoT)
+                              Managing Certificates
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
@@ -217,7 +145,7 @@ export default function Home() {
                               class="featured-card__product-link"
                               href="https://sec-ops-docs.vercel.app/docs/intro"
                             >
-                              IP Addressing
+                              Decrypting SSH Traffic
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
@@ -225,7 +153,7 @@ export default function Home() {
                               class="featured-card__product-link"
                               href="https://sec-ops-docs.vercel.app/docs/intro"
                             >
-                              Subnetting
+                              Decrypting SSL Inbound Traffic
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
@@ -233,223 +161,7 @@ export default function Home() {
                               class="featured-card__product-link"
                               href="https://sec-ops-docs.vercel.app/docs/intro"
                             >
-                              TCP/IP and OSI Model
-                            </a>
-                          </li>
-                          <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
-                            >
-                              Packet Lifecycle
-                            </a>
-                          </li>
-                          <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
-                            >
-                              Data Encapsulation
-                            </a>
-                          </li>
-                          <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
-                            >
-                              Endpoint Security
-                            </a>
-                          </li>
-                          <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
-                            >
-                              Malware && Anti Malware
-                            </a>
-                          </li>
-                          <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
-                            >
-                              Golden Image
-                            </a>
-                          </li>
-                          <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
-                            >
-                              Firewalls && HIPS
-                            </a>
-                          </li>
-                          <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
-                            >
-                              Mobile Device Management (MDM)
-                            </a>
-                          </li>
-                          <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
-                            >
-                              Server Management
-                            </a>
-                          </li>
-                          <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
-                            >
-                              Structured Host
-                            </a>
-                          </li>
-                          <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
-                            >
-                              Network Troubleshooting
-                            </a>
-                          </li>
-                          <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
-                            >
-                              Legacy Firewalls
-                            </a>
-                          </li>
-                          <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
-                            >
-                              Intrusion Detection && Prevention
-                            </a>
-                          </li>
-                          <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
-                            >
-                              Web Content Filters
-                            </a>
-                          </li>
-                          <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
-                            >
-                              Virtual Private Networks (VPN)
-                            </a>
-                          </li>
-                          <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
-                            >
-                              Data Loss Prevention (DLP)
-                            </a>
-                          </li>
-                          <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
-                            >
-                              Unified Threat Management
-                            </a>
-                          </li>
-                          <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
-                            >
-                              Prevention-First Architecture
-                            </a>
-                          </li>
-                          <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
-                            >
-                              Next-Generation Firewalls
-                            </a>
-                          </li>
-                          <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
-                            >
-                              Virtual Private Networks
-                            </a>
-                          </li>
-                          <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
-                            >
-                              Identification
-                            </a>
-                          </li>
-                          <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
-                            >
-                              Next-Generation Firewall Deployment
-                            </a>
-                          </li>
-                          <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
-                            >
-                              Ironskillet
-                            </a>
-                          </li>
-                          <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
-                            >
-                              Expedition Migration Tool
-                            </a>
-                          </li>
-                          <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
-                            >
-                              Best Practice Assessment
-                            </a>
-                          </li>
-                          <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
-                            >
-                              Zero Trust
-                            </a>
-                          </li>
-                          <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
-                            >
-                              Subscription Services
-                            </a>
-                          </li>
-                          <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
-                            >
-                              Panorama
+                              Backing up Firewall Logs
                             </a>
                           </li>
                         </ul>
@@ -466,7 +178,7 @@ export default function Home() {
                               class="featured-card__product-link"
                               href="https://sec-ops-docs.vercel.app/docs/intro"
                             >
-                              Virtualization
+                              Protecting Sensitive Data
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
@@ -474,7 +186,7 @@ export default function Home() {
                               class="featured-card__product-link"
                               href="https://sec-ops-docs.vercel.app/docs/intro"
                             >
-                              Containers
+                              Preventing Internet Threats w/ File Blocking
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
@@ -482,7 +194,7 @@ export default function Home() {
                               class="featured-card__product-link"
                               href="https://sec-ops-docs.vercel.app/docs/intro"
                             >
-                              Micro-VMs
+                              Container Network Security
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
@@ -490,7 +202,7 @@ export default function Home() {
                               class="featured-card__product-link"
                               href="https://sec-ops-docs.vercel.app/docs/intro"
                             >
-                              Serverless Technology
+                              Denying International Attackers
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
@@ -498,7 +210,7 @@ export default function Home() {
                               class="featured-card__product-link"
                               href="https://sec-ops-docs.vercel.app/docs/intro"
                             >
-                              Computing Models && Responsibilites
+                              Configuring HIP for Global Protect
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
@@ -506,47 +218,7 @@ export default function Home() {
                               class="featured-card__product-link"
                               href="https://sec-ops-docs.vercel.app/docs/intro"
                             >
-                              Hybrid Cloud
-                            </a>
-                          </li>
-                          <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
-                            >
-                              App Development && Processes
-                            </a>
-                          </li>
-                          <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
-                            >
-                              Security Operations Responsibilites
-                            </a>
-                          </li>
-                          <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
-                            >
-                              Cloud-Native App Protection
-                            </a>
-                          </li>
-                          <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
-                            >
-                              Virtual Private Networks
-                            </a>
-                          </li>
-                          <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="https://sec-ops-docs.vercel.app/docs/intro"
-                            >
-                              Prisma Cloud Security
+                              Container Vulnerability Scanning
                             </a>
                           </li>
                         </ul>
@@ -563,7 +235,7 @@ export default function Home() {
                               class="featured-card__product-link"
                               href="https://sec-ops-docs.vercel.app/docs/intro"
                             >
-                              SecOps Analyst
+                              Network Traffic Analysis
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
@@ -571,7 +243,7 @@ export default function Home() {
                               class="featured-card__product-link"
                               href="https://sec-ops-docs.vercel.app/docs/intro"
                             >
-                              Business Pillar
+                              Application Command Center to Find Threats
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
@@ -579,7 +251,7 @@ export default function Home() {
                               class="featured-card__product-link"
                               href="https://sec-ops-docs.vercel.app/docs/intro"
                             >
-                              People Pillar
+                              Analyzing Firewall Logs
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
@@ -587,7 +259,7 @@ export default function Home() {
                               class="featured-card__product-link"
                               href="https://sec-ops-docs.vercel.app/docs/intro"
                             >
-                              Processes Pillar
+                              Log Forwarding to Linux
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
@@ -595,7 +267,7 @@ export default function Home() {
                               class="featured-card__product-link"
                               href="https://sec-ops-docs.vercel.app/docs/intro"
                             >
-                              Interfaces Pillar
+                              Stopping Reconnaissance Attacks
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
@@ -603,7 +275,7 @@ export default function Home() {
                               class="featured-card__product-link"
                               href="https://sec-ops-docs.vercel.app/docs/intro"
                             >
-                              Visibility Pillar
+                              Securing Endpoint using Vulnerability Profiles
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
@@ -611,7 +283,7 @@ export default function Home() {
                               class="featured-card__product-link"
                               href="https://sec-ops-docs.vercel.app/docs/intro"
                             >
-                              Technology Pillar
+                              Threat Intelligence
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
@@ -619,7 +291,7 @@ export default function Home() {
                               class="featured-card__product-link"
                               href="https://sec-ops-docs.vercel.app/docs/intro"
                             >
-                              SOAR Technology
+                              Using Dynamic Block Lists
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
