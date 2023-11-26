@@ -146,9 +146,9 @@
 }
 
 /* creates one long row */
-/* .featured-cards-container {
+.featured-cards-container {
   grid-template-columns: 1fr
-} */
+}
 
 /* removes scrollbar */
 .featured-card__products-container::-webkit-scrollbar-thumb {
