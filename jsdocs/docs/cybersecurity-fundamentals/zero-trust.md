@@ -25,6 +25,7 @@ Click `close`
 Commit the changes located at the top-right of the web interface
 In the commit window click commit to proceed with the committing changes
 When the operation successfully completes click close to continue.
+```
 
 :::warning
 
