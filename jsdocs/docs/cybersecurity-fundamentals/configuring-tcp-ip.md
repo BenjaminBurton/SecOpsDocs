@@ -13,19 +13,17 @@ sidebar_position: 2
 - Verify the Network Connectivity
 
 ## Steps to configure TCP/IP
-
-- Load Lab Configuration
-- Use whichever browser you prefer
-- Log in to the Client PC w/ username && Password
-- Click Advanced && Proceed to Log in to the Firewall web interface
-- In the dashboard Select the device option on the top far left
-- Select the Setup from the options on the far left
-- Select Operations next to Management
-- In the Configuration Management next to load
-- Select ( Load named configuration snapshot )
-
-- In Load window Configuration select pan-cf-lab-01.xml from the dropdown
-- Click OK && close the following window
+```md title="Load Lab Configuration"
+Use whichever browser you prefer
+Log in to the Client PC w/ username && Password
+Click Advanced && Proceed to Log in to the Firewall web interface
+In the dashboard Select the device option on the top far left
+Select the Setup from the options on the far left
+Select Operations next to Management
+In the Configuration Management next to load
+Select ( Load named configuration snapshot )
+In Load window Configuration select pan-cf-lab-01.xml from the dropdown
+Click OK && close the following window
 
 - Click the Task Icon at the bottom right of Interface
 - Verify the Load has successfully completed
@@ -42,11 +40,11 @@ The commit process takes changes made to the Firewall and copies them to the run
 
 :::
 
-## Configure Ethernet Interfaces with Layer 3 Information
 
-- Select Xfce Terminal in the Taskbar
-
-- In the Terminal ping 192.168.1.1 -c 3 ( -c 3 for 3 request checking connectivity )
+```md tite="Configure Ethernet Interfaces with Layer 3 Information"
+Select Xfce Terminal in the Taskbar
+In the Terminal ping 192.168.1.1 -c 3 ( -c 3 for 3 request checking connectivity )
+```
 
 :::tip
 
@@ -88,7 +86,7 @@ The allow-mgmt Management Profile allows the interface to accept pings and to ac
 
 - In the Warning window, click Yes.
 
-:::tip
+:::warning
 
 The Warning advises that if you attach this interface management profile to this interface, you are potentially exposing the firewall’s administrative interface to any party that can reach this interface. For the purpose of this lab, you will bypass this warning knowing that it is not good practice to attach a management profile to a production interface.
 
@@ -106,8 +104,8 @@ Notice the warnings in the Commit section. You will resolve this in the next sec
 
 :::
 
-## Create a Virtual Router
 
+```md title="Create a Virtual Router"
 - Select Network inFirewal Interface
 - Select Virtual Router on Left side Panel
 
@@ -118,6 +116,7 @@ Notice the warnings in the Commit section. You will resolve this in the next sec
 - Click on the Add button and select ethernet1/1 from the dropdown.
 
 - Click on the Add button and select ethernet1/2.
+```
 
 :::tip
 
@@ -137,11 +136,12 @@ Adding interfaces to the virtual router will allow the networks assigned to thes
 
 - When the commit operation successfully completes, click Close to continue.
 
-## Verify Network Connectivity
 
+```md title="Verify Network Connectivity"
 - Open Xfce Terminal
 
 - In the Terminal ping 192.168.1.1 -c 3
+```
 
 :::tip
 
