@@ -53,6 +53,7 @@ Click `OK` button
 In the zone window type `dmz` in the name field
 Change Type to `Layer 3`
 Click `OK` button
+```
 
 :::note
 
