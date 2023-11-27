@@ -90,7 +90,7 @@ Click `Add` at the bottom-left of the Interface
 In the Security Policy Rule window Type `Allow-Inside-Out` in the name field
 ```
 
-:::note title="Security Policy Rule"
+:::note Security Policy Rule"
 
 In a Security Policy Rule, there are three required sections. Note the initial red Squiggle Lines under General, Source, Destinantion. Thesewill go away as you fill out the required information.
 
