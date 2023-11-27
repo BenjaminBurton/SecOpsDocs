@@ -33,6 +33,7 @@ Click OK && close the following window
 - When the commit window pops up Click commit to proceed with the changes
 
 - When the commit operation completes, click Close
+```
 
 :::tip
 
