@@ -66,7 +66,6 @@ const config = {
         appId: "DGS5YFBVUA",
         apiKey: "b54598836e6f2b0308b9f9cde81a6870",
         indexName: "sec-ops-vercel",
-        contextualSearch: false,
       },
       // Replace with your project's social card
       image: "img/SecOps2",
