@@ -62,26 +62,14 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
-      image: "img/SecOps2",
       algolia: {
+        appId: "DGS5YFBVUA",
         apiKey: "b54598836e6f2b0308b9f9cde81a6870",
         indexName: "sec-ops-vercel",
         contextualSearch: false,
-        externalUrlRegex: "external\\.com|domain\\.com",
-        replaceSearchResultPathname: {
-          from: "/docs/", // or as RegExp: /\/docs\//
-          to: "/",
-        },
-
-        // Optional: Algolia search parameters
-        searchParameters: {},
-
-        // Optional: path for search page that enabled by default (`false` to disable it)
-        searchPagePath: "search",
-        palceholder: "Search Docs with us",
-        appId: "DGS5YFBVUA",
       },
+      // Replace with your project's social card
+      image: "img/SecOps2",
       navbar: {
         title: "",
         logo: {
