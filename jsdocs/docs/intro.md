@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 ---
-
+<div id="docsearch"></div>
 # Documentation Intro
 
 Let's discover **Network && Security Architecture && Concepts**.
