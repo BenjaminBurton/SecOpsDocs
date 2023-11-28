@@ -79,7 +79,7 @@ const config = {
 
         // Optional: path for search page that enabled by default (`false` to disable it)
         searchPagePath: "search",
-        palceholder: "",
+        palceholder: "Search Docs with us",
         appId: "DGS5YFBVUA",
       },
       navbar: {
