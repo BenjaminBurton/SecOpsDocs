@@ -4,7 +4,7 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import { themes as prismThemes } from "prism-react-renderer";
+import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -39,14 +39,7 @@ const config = {
       "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        id: "latest-docs",
-        path: "https://sec-ops-docs.vercel.app/docs/intro",
-        routeBasePath: "docs",
         docs: {
-          algolia: {
-            apiKey: "b54598836e6f2b0308b9f9cde81a6870",
-            indexName: "sec-ops-vercel",
-          },
           sidebarPath: "./sidebars.js",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -73,7 +66,7 @@ const config = {
       image: "img/SecOps2",
       algolia: {
         apiKey: "b54598836e6f2b0308b9f9cde81a6870",
-        indexName: "sec-ops-vercel",
+        indexName: "docusaurus-2",
         contextualSearch: true,
         externalUrlRegex: "external\\.com|domain\\.com",
         replaceSearchResultPathname: {
@@ -82,7 +75,7 @@ const config = {
         },
 
         // Optional: Algolia search parameters
-        searchParameters: { facetFilters: ["language:en", "version:1.0.0"] },
+        searchParameters: {},
 
         // Optional: path for search page that enabled by default (`false` to disable it)
         searchPagePath: "search",
