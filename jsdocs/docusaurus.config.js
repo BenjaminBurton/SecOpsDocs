@@ -39,7 +39,14 @@ const config = {
       "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+        id: "latest-docs",
+        path: "https://sec-ops-docs.vercel.app/docs/intro",
+        routeBasePath: "docs",
         docs: {
+          algolia: {
+            apiKey: "b54598836e6f2b0308b9f9cde81a6870",
+            indexName: "sec-ops-vercel",
+          },
           sidebarPath: "./sidebars.js",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
