@@ -69,6 +69,104 @@ This will enable the inside zone to use a Username for Authentication
 :::
 
 
+```md
+Navigate to `Device` in the top selections of the interface
+On the far-left side of the interface select `Users` (you may have to scroll down)
+Click `Add` in the window to add a User
+In the Local User window Type `lab-web` in the Name field
+Then Type `Pal0Alt0!` in the Password and confirm fields
+Then click the `OK` button
+```
+
+```md
+Navigate to device in the top selections of the interface
+Select Authentication Profile on the far-right side of the interface
+Click `Add` at the bottom-left in the interface 
+In the Authentication Profile window Type `Local-Auth-Profile` in the name field
+In the Type box Select `Local Database` from the dropdown
+Also In the Authentication Profile window click on the `Advanced` tab
+Then click the `Add` button
+Next select `all` from the dropdown in the Allow List column
+Lastly click the `OK` button
+```
+
+```md title="Enable the Authentication Portal && Enable Web-Form based Logins"
+Enable a Captive Portal and use a web form for login
+Navigate to Device form the top selections in th interface
+Select `User Identification` to open up the Authentication Portal
+Under the Authentication Portal Settings click the `gear icon`
+In the Authentication Portal window click the `Enable Authentication Portal` checkbox
+Select `Local-Auth-Profile` from the Authentication Profile dropdown
+click `OK` button
+```
+
+:::note
+
+This will turn on the Authentication Portal for web-form logins and associate it with the Local-Auth-Profile you created earlier.
+
+:::
+
+```md
+Navigate to Objects from the top selection in the interface
+select Authentication from the choices in the far-right column
+Click checkbox beside the default-web-form and click `Clone`
+In the Clone window click the `OK` button to confirm the clone
+Notice the new entry named `default-web-form-1` has been created
+click on the `default-web-form-1`
+In the Authentication Enforcement window Type `local-web-form-auth` in the Name field
+Then select `Local-Auth-Profile` in the Authentication Profile dropdown
+Next Click the `OK` button
+```
+
+
+```md title="Create an Authentication Policy"
+Navigate to Policies in the top selections in the interface
+Select Authentication from the choices in the far-left column
+Then click `Add` in the bottom-left of the screen
+In the Authentication Policy Rule Window Type `web-form-policy` in th name field
+In the Authentication Policy Rule Window click on the `Source` tab
+Click `Add` button in Source Zone section
+Next select `inside`
+In the Authentication Policy Rule Window click on the `Service/URL Category` tab
+Then click on the `Add` button in the Service section
+Next select `service-https`
+In the Authentication Policy Rule Window click on the `Actions` tab
+Then select `local-web-form-auth` from the Authentication Enforcement dropdown
+Then click the `OK` button
+```
+
+
+```md title="Commit && Test Authentication Policy"
+Click `Commit` at the top-right of the interface
+Click `Commit`In the Commit window  to commit the changes
+Click `Close` when the operation successfully completes to continue
+Open another Browser and Type `http://www.facebook.com` and press `Enter`
+MAKE SURE YOU TYPE HTTP && NOT HTTPS
+You will see a `Your connection is not private` message
+Click the `ADVANCED` Link
+Then Click `Proceed to www.facebook.com(unsafe)`
+```
+
+:::note
+
+You are seeing this error because the Firewall is intercepting traffic coming from the inside zone to the outside zone. The Firewall serves as a man-in-the-middle until authenticated.
+
+:::
+
+
+```md
+You will see a web-form login
+Type `lab-web` as the username
+Then Type `Pal0Alt0!` as the Password
+Then click the `login` button
+You will see Facebook after successful Authentication to the Firewall as `lab-web`
+```
+
+:::info
+
+In the logs you will see that the entries to `facebook-base` are associated with the `lab-web` user. You may need to manually refresh logs or check additional pages at the bottom of the page
+:::
+
 
 
 
