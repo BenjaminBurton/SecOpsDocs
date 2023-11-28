@@ -68,6 +68,17 @@ const config = {
         apiKey: "b54598836e6f2b0308b9f9cde81a6870",
         indexName: "sec-ops-vercel",
         contextualSearch: true,
+        externalUrlRegex: "external\\.com|domain\\.com",
+        replaceSearchResultPathname: {
+          from: "/docs/", // or as RegExp: /\/docs\//
+          to: "/",
+        },
+
+        // Optional: Algolia search parameters
+        searchParameters: {},
+
+        // Optional: path for search page that enabled by default (`false` to disable it)
+        searchPagePath: "search",
         palceholder: "",
         appId: "DGS5YFBVUA",
       },
