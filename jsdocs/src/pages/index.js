@@ -1,23 +1,9 @@
 import React from "react";
 import Layout from "@theme/Layout";
-import docsearch from "@docsearch/js";
-
-import "@docsearch/css";
-
-docsearch({
-  container: "#docsearch",
-  appId: "DGS5YFBVUA",
-  indexName: "sec-ops-vercel",
-  apiKey: "b54598836e6f2b0308b9f9cde81a6870",
-});
 
 export default function Home() {
   return (
     <Layout title="Home" description="Home Page">
-      <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/@docsearch/css@3"
-      />
       <div class="hero-background-wrapper">
         <section class="hero-container container">
           <header class="hero-content-container">
@@ -1112,7 +1098,6 @@ export default function Home() {
           </div>
         </div>
       </footer>
-      <script src="https://cdn.jsdelivr.net/npm/@docsearch/js@3"></script>
     </Layout>
   );
 }
