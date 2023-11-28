@@ -4,7 +4,7 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -75,7 +75,7 @@ const config = {
         },
 
         // Optional: Algolia search parameters
-        searchParameters: {},
+        searchParameters: { facetFilters: ["language:en", "version:1.0.0"] },
 
         // Optional: path for search page that enabled by default (`false` to disable it)
         searchPagePath: "search",
