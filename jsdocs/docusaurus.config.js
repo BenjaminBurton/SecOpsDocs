@@ -66,8 +66,8 @@ const config = {
       image: "img/SecOps2",
       algolia: {
         apiKey: "b54598836e6f2b0308b9f9cde81a6870",
-        indexName: "docusaurus-2",
-        contextualSearch: true,
+        indexName: "sec-ops-vercel",
+        contextualSearch: false,
         externalUrlRegex: "external\\.com|domain\\.com",
         replaceSearchResultPathname: {
           from: "/docs/", // or as RegExp: /\/docs\//
