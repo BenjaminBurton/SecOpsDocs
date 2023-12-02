@@ -8,7 +8,7 @@ sidebar_position: 6
 ## 2FA Authentication to Secure the Firewall
 
 
-## Load Lab Configuration
+### Load Lab Configuration
 ```md 
 Click the Client tab to access the Client
 Open up the browser and log into the Interface
@@ -18,7 +18,7 @@ click on the `ADVANCED` LINK
 Then on the `Proceed to 192.168.1.254` (unsafe)
 ```
 
-## Log into the Firewall Interface
+### Log into the Firewall Interface
 ```md 
 username `admin`
 password `Pal0Alt0!`
@@ -35,7 +35,7 @@ click `commit` and in the commit window click `commit` again
 let the commit opperation successfully complete then click `close`
 ```
 
-## Create Loacal User Account
+### Create Loacal User Account
 ```md 
 Navigate to `device` in the top selections in the interface
 select Administrators from the far-right column
@@ -44,7 +44,7 @@ In the Administrator window Type `lab-user` in the name field
 then Type `Pal0Alt0` in the password field then click `OK`
 ```
 
-## Generate the Certificate
+### Generate the Certificate
 ```md 
 Navigate to the Device choice from the top selections in the Interface
 select `Certificates` from the choices in the far-left column
@@ -68,7 +68,7 @@ In setting the Common Name as lab-user, this will later be used as an authentica
 
 :::
 
-## Create a Certificate Profile
+### Create a Certificate Profile
 ```md 
 Navigate to `Device` from the top selections in the interface
 Under `Certificate Management` from the choices in the far-left column choose `Certificate profile` 
@@ -105,7 +105,7 @@ In that `Authentication Settings` window select `Cert-Local-Profile` for the `Ce
 then click the `OK` button
 ```
 
-## Export Certificate && Commit
+### Export Certificate && Commit
 ```md 
 Export the `lab-user` certificate that was generated on the firewall
 Navigate to Device from the top selections in the interface
@@ -143,7 +143,7 @@ Notice the warning about the Web server being restarted, this is because of the 
 Click the `X` in the upper-right to close the Web Browser
 ```
 
-## Test Connectivity and Import Certificate on the Client
+### Test Connectivity and Import Certificate on the Client
 ```md 
 Open the browser 
 type `https://192.168.1.254` in the web address bar and press `Enter`
