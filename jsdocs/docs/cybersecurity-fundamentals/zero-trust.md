@@ -4,7 +4,8 @@ sidebar_position: 4
 
 # Creating a Zero Trust Environment
 
-```md title="Load Lab Configuration"
+### Load Lab Configuration
+```md 
 Open the browser (Chromium or Firefox) `your decision`
 Type `https://192.168.1.254` press `enter`
 When you see Your Connection is not private message on page
@@ -41,7 +42,8 @@ The commit process takes changes made to the Firewall and copies them to the run
 
 
 ## Create three Basic zones (inside, outside && dmz)
-```md title="Create Zones && Associate the Zones to Interfaces"
+### Create Zones && Associate the Zones to Interfaces
+```md 
 Navigate to Network from the top selections on the interface
 Select Zones && click Add at the bottom-left of the center section
 In the zone window type `outside` in the name field
@@ -61,7 +63,8 @@ You have created a zone for each interface. This will keep the traffic between e
 
 :::
 
-```md title="Navigate to Network in the top selections of the interface"
+### Navigate to Network in the top selections of the interface
+```md 
 Select Interfaces and click ethernet1/1
 In the Ethernet Interface window select outside from the `Security Zone` dropdown
 Click the `OK` button
@@ -83,7 +86,8 @@ In the Ethernet Interface window select dmz from the `Security Zone` dropdown
 Click the `OK` button
 ```
 
-```md title="Create a Security Policy Rule"
+### Create a Security Policy Rule
+```md 
 Navigate to policies from the top selections on the Interface
 Choose Security from the selections on the right of the interface
 Click `Add` at the bottom-left of the Interface
@@ -96,7 +100,8 @@ In a Security Policy Rule, there are three required sections. Note the initial r
 
 :::
 
-```md title="Security Policy Rule"
+### Security Policy Rule
+```md 
 In the policy rule window click on the `Source Tab`
 Then Click the `Add` button in the Zone section
 Then Select `inside` from the dropdown in the `Source Zone Column`
@@ -172,7 +177,8 @@ In the Security Policy Rule – predefined window, click on the Actions tab. The
 
 
 # Create a basic NAT policy to NAT traffic from the inside zone to the outside zone.
-```md title="Create a NAT Policy"
+### Create a NAT Policy
+```md 
 Navigate to Policies > NAT > Add.
 ```
 ```md
