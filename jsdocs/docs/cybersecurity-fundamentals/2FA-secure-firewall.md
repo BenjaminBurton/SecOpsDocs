@@ -62,7 +62,7 @@ finally click the `Generate` button
 and click continue in the successfully generated certificate window
 ```
 
-:::note
+:::tip
 
 In setting the Common Name as lab-user, this will later be used as an authentication field, to map to the local user account, lab-user. Notice, you are using the previous root CA certificate, lab-local, to sign this certificate.
 
