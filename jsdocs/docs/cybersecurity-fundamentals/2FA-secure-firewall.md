@@ -82,6 +82,7 @@ Notice the Username Field, when set to Subject, it will use “common- name” a
 ```md
 in the `Certificate Profile` window select `lab-local` in the `CA Certificate` dropdown
 then click the `OK` button
+```
 
 :::note
 
