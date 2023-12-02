@@ -5,7 +5,7 @@ sidebar_position: 6
 # 2FA to Secure the Firewall
 
 ## Two-Factor Authentication Using a Certificate
-## Using Two-Factor Authentication to Secure the Firewall
+## 2FA Authentication to Secure the Firewall
 
 
 ```md title="Load Lab Configuration"
