@@ -11,7 +11,8 @@ sidebar_position: 5
 - Enable the Captive Portal && Enable Web-Form based Logins
 - Create an Authentication Policy
 
-```md title="Load Lab Configuration"
+### Load Lab Configuration
+```md 
 Open the client (Chromium or Firefox)
 Type `https://192.168.1.254` and press Enter
 When you see "Your connection is private" Click the Advanced Link
@@ -27,12 +28,14 @@ If you experience the "Unable to connect" or "502 Bad Gateway" message while att
 CLICK ON PROCEED TO 192.168.1.254 (unsafe)
 ```
 
-```md title="Login to the Firewall web Interface"
+### Login to the Firewall web Interface
+```md 
 username `admin`
 password `Pal0Alt0!`
 ```
 
-```md title="Configuration Management"
+### Configuration Management
+```md 
 Navigate to Device form the top selections of the Interface
 Select setup from the selections on the left 
 Select Operations above the Configuration Management window
@@ -54,7 +57,8 @@ The commit process takes changes made to the firewall && copies them to the runn
 
 :::
 
-```md title="Configure a Local User Account && Authentication Profile"
+### Configure a Local User Account && Authentication Profile
+```md 
 Navigate to Network in the top selections of the interface
 Select zones from the selections on the left side of interface
 Click on `inside` zone
@@ -90,7 +94,8 @@ Next select `all` from the dropdown in the Allow List column
 Lastly click the `OK` button
 ```
 
-```md title="Enable the Authentication Portal && Enable Web-Form based Logins"
+### Enable the Authentication Portal && Enable Web-Form based Logins
+```md 
 Enable a Captive Portal and use a web form for login
 Navigate to Device form the top selections in th interface
 Select `User Identification` to open up the Authentication Portal
@@ -118,8 +123,8 @@ Then select `Local-Auth-Profile` in the Authentication Profile dropdown
 Next Click the `OK` button
 ```
 
-
-```md title="Create an Authentication Policy"
+### Create an Authentication Policy
+```md 
 Navigate to Policies in the top selections in the interface
 Select Authentication from the choices in the far-left column
 Then click `Add` in the bottom-left of the screen
@@ -135,8 +140,8 @@ Then select `local-web-form-auth` from the Authentication Enforcement dropdown
 Then click the `OK` button
 ```
 
-
-```md title="Commit && Test Authentication Policy"
+### Commit && Test Authentication Policy
+```md 
 Click `Commit` at the top-right of the interface
 Click `Commit`In the Commit window  to commit the changes
 Click `Close` when the operation successfully completes to continue
