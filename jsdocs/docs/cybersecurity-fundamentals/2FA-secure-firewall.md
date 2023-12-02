@@ -35,7 +35,7 @@ click `commit` and in the commit window click `commit` again
 let the commit opperation successfully complete then click `close`
 ```
 
-### Create Loacal User Account
+### Create Local User Account
 ```md 
 Navigate to `device` in the top selections in the interface
 select Administrators from the far-right column
