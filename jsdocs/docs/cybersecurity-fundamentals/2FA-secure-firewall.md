@@ -8,7 +8,8 @@ sidebar_position: 6
 ## 2FA Authentication to Secure the Firewall
 
 
-```md title="Load Lab Configuration"
+## Load Lab Configuration
+```md 
 Click the Client tab to access the Client
 Open up the browser and log into the Interface
 Type `https://192.168.1.254` and press `Enter`
@@ -17,7 +18,8 @@ click on the `ADVANCED` LINK
 Then on the `Proceed to 192.168.1.254` (unsafe)
 ```
 
-```md title="Log into the Firewall Interface"
+## Log into the Firewall Interface
+```md 
 username `admin`
 password `Pal0Alt0!`
 ```
@@ -33,7 +35,8 @@ click `commit` and in the commit window click `commit` again
 let the commit opperation successfully complete then click `close`
 ```
 
-```md title="Create Loacal User Account"
+## Create Loacal User Account
+```md 
 Navigate to `device` in the top selections in the interface
 select Administrators from the far-right column
 click add at the bottom ofthe window with the `admin` entry
@@ -41,7 +44,8 @@ In the Administrator window Type `lab-user` in the name field
 then Type `Pal0Alt0` in the password field then click `OK`
 ```
 
-```md title="Generate the Certificate"
+## Generate the Certificate
+```md 
 Navigate to the Device choice from the top selections in the Interface
 select `Certificates` from the choices in the far-left column
 in the bottom-center of the interface click the `Generate` choice
@@ -64,7 +68,8 @@ In setting the Common Name as lab-user, this will later be used as an authentica
 
 :::
 
-```md title="Create a Certificate Profile"
+## Create a Certificate Profile
+```md 
 Navigate to `Device` from the top selections in the interface
 Under `Certificate Management` from the choices in the far-left column choose `Certificate profile` 
 Then click `Add` in the window on the bottom left
@@ -100,7 +105,8 @@ In that `Authentication Settings` window select `Cert-Local-Profile` for the `Ce
 then click the `OK` button
 ```
 
-```md title="Export Certificate && Commit"
+## Export Certificate && Commit
+```md 
 Export the `lab-user` certificate that was generated on the firewall
 Navigate to Device from the top selections in the interface
 Under `Certificate Management` select `Certificates`
@@ -137,7 +143,8 @@ Notice the warning about the Web server being restarted, this is because of the 
 Click the `X` in the upper-right to close the Web Browser
 ```
 
-```md title="Test Connectivity and Import Certificate on the Client"
+## Test Connectivity and Import Certificate on the Client
+```md 
 Open the browser 
 type `https://192.168.1.254` in the web address bar and press `Enter`
 when you see `“Your connection is not private` 
