@@ -13,7 +13,8 @@ sidebar_position: 2
 - Verify the Network Connectivity
 
 ## Steps to configure TCP/IP
-```md title="Load Lab Configuration"
+### Load Lab Configuration
+```md 
 Use whichever browser you prefer
 Log in to the Client PC w/ username && Password
 Click Advanced && Proceed to Log in to the Firewall web interface
@@ -41,8 +42,8 @@ The commit process takes changes made to the Firewall and copies them to the run
 
 :::
 
-
-```md tite="Configure Ethernet Interfaces with Layer 3 Information"
+### Configure Ethernet Interfaces with Layer 3 Information
+```md 
 Select Xfce Terminal in the Taskbar
 In the Terminal ping 192.168.1.1 -c 3 ( -c 3 for 3 request checking connectivity )
 ```
@@ -105,8 +106,8 @@ Notice the warnings in the Commit section. You will resolve this in the next sec
 
 :::
 
-
-```md title="Create a Virtual Router"
+### Create a Virtual Router
+```md 
 - Select Network inFirewal Interface
 - Select Virtual Router on Left side Panel
 
@@ -137,8 +138,8 @@ Adding interfaces to the virtual router will allow the networks assigned to thes
 
 - When the commit operation successfully completes, click Close to continue.
 
-
-```md title="Verify Network Connectivity"
+### Verify Network Connectivity
+```md 
 - Open Xfce Terminal
 
 - In the Terminal ping 192.168.1.1 -c 3
