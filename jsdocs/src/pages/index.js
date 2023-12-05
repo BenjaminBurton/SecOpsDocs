@@ -1073,6 +1073,385 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+              <div class="featured-card-container cloud-native-security">
+                <div class="featured-card-content">
+                  <h2 class="featured-card-content__label">
+                    VMware Cloud && Virtualization
+                  </h2>
+                  <div class="featured-card-content__section-divider"></div>
+                  <p class="featured-card-content__description">
+                    A comprehensive understanding of Virtualization.
+                  </p>
+                  <div class="featured-card__products-container">
+                    <div class="feature-card__left-column">
+                      <div class="featured-card__product-container">
+                        <h3 class="featured-card__product-group-label">
+                          Virtualization
+                        </h3>
+                        <ul class="featured-card__product-list">
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a
+                              class="featured-card__product-link"
+                              href="#"
+                            >
+                              Hardware && Software
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a
+                              class="featured-card__product-link"
+                              href="#"
+                            >
+                              Virtual Machine
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="feature-card__left-column">
+                      <div class="featured-card__product-container">
+                        <h3 class="featured-card__product-group-label">
+                          Hypervisor
+                        </h3>
+                        <ul class="featured-card__product-list">
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a
+                              class="featured-card__product-link"
+                              href="#"
+                            >
+                              Type 1
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a
+                              class="featured-card__product-link"
+                              href="#"
+                            >
+                              Type 2
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a
+                              class="featured-card__product-link"
+                              href="#"
+                            >
+                              Workstation
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a
+                              class="featured-card__product-link"
+                              href="#"
+                            >
+                              Virtual Machine Files
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a
+                              class="featured-card__product-link"
+                              href="#"
+                            >
+                              Snapshots
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="feature-card__left-column">
+                      <div class="featured-card__product-container">
+                        <h3 class="featured-card__product-group-label">
+                          Data Center
+                        </h3>
+                        <ul class="featured-card__product-list">
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a
+                              class="featured-card__product-link"
+                              href="#"
+                            >
+                              Compute Systems
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a
+                              class="featured-card__product-link"
+                              href="#"
+                            >
+                              Networks
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a
+                              class="featured-card__product-link"
+                              href="#"
+                            >
+                              Storage
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a
+                              class="featured-card__product-link"
+                              href="#"
+                            >
+                              RAID Redundant Array of Independent Disks
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a
+                              class="featured-card__product-link"
+                              href="#"
+                            >
+                              File && Block Level Storage
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a
+                              class="featured-card__product-link"
+                              href="#"
+                            >
+                              DAS Direct Attached Storage
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a
+                              class="featured-card__product-link"
+                              href="#"
+                            >
+                              NAS Network Attached Storage
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a
+                              class="featured-card__product-link"
+                              href="#"
+                            >
+                              SAN Storage Area Network
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a
+                              class="featured-card__product-link"
+                              href="#"
+                            >
+                              Storage Protocols
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a
+                              class="featured-card__product-link"
+                              href="#"
+                            >
+                              Storage Provisioning
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="feature-card__left-column">
+                      <div class="featured-card__product-container">
+                        <h3 class="featured-card__product-group-label">
+                          Virtual Data Center
+                        </h3>
+                        <ul class="featured-card__product-list">
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a
+                              class="featured-card__product-link"
+                              href="#"
+                            >
+                              vSphere
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a
+                              class="featured-card__product-link"
+                              href="#"
+                            >
+                              ESXi
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a
+                              class="featured-card__product-link"
+                              href="#"
+                            >
+                              vCenter
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a
+                              class="featured-card__product-link"
+                              href="#"
+                            >
+                              vSphere Host Client
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a
+                              class="featured-card__product-link"
+                              href="#"
+                            >
+                              vSphere Client
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a
+                              class="featured-card__product-link"
+                              href="#"
+                            >
+                              Server Virtualization
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a
+                              class="featured-card__product-link"
+                              href="#"
+                            >
+                              Storage Virtualization
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a
+                              class="featured-card__product-link"
+                              href="#"
+                            >
+                              Network Virtualization
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a
+                              class="featured-card__product-link"
+                              href="#"
+                            >
+                              Virtual Network Types
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a
+                              class="featured-card__product-link"
+                              href="#"
+                            >
+                              Application && Desktop Virtualization
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a
+                              class="featured-card__product-link"
+                              href="#"
+                            >
+                              Convergence Physical to Virtual
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="feature-card__right-column">
+                      <div class="featured-card__product-container">
+                        <h3 class="featured-card__product-group-label">
+                          Cloud Virtualization
+                        </h3>
+                        <ul class="featured-card__product-list">
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a
+                              class="featured-card__product-link"
+                              href="#"
+                            >
+                              Cloud Computing Types
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a
+                              class="featured-card__product-link"
+                              href="#"
+                            >
+                              SaaS Software as a Service
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a
+                              class="featured-card__product-link"
+                              href="#"
+                            >
+                              PaaS Platform as a Service
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a
+                              class="featured-card__product-link"
+                              href="#"
+                            >
+                              IaaS Infrastructure as a Service
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a
+                              class="featured-card__product-link"
+                              href="#"
+                            >
+                              Cloud Deployment Models
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a
+                              class="featured-card__product-link"
+                              href="#"
+                            >
+                              Private && Community Clouds
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a
+                              class="featured-card__product-link"
+                              href="#"
+                            >
+                              Public Clouds
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a
+                              class="featured-card__product-link"
+                              href="#"
+                            >
+                              Hybrid Clouds
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="feature-card__left-column">
+                      <div class="featured-card__product-container">
+                        <h3 class="featured-card__product-group-label">
+                          Container Technology
+                        </h3>
+                        <ul class="featured-card__product-list">
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a
+                              class="featured-card__product-link"
+                              href="#"
+                            >
+                              Kubernetes
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a
+                              class="featured-card__product-link"
+                              href="#"
+                            >
+                              Containers in the Cloud
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a
+                              class="featured-card__product-link"
+                              href="#"
+                            >
+                              Container Security
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <button
