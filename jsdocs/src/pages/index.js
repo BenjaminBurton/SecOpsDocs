@@ -1415,25 +1415,6 @@ export default function Home() {
                         </ul>
                       </div>
                     </div>
-                    <div class="feature-card__left-column">
-                      <div class="featured-card__product-container">
-                        <h3 class="featured-card__product-group-label">
-                          Event-Driven Ansible
-                        </h3>
-                        <ul class="featured-card__product-list">
-                          <li class="featured-card__product-list-item doc-icon">
-                            <a class="featured-card__product-link" href="#">
-                              Rulebooks
-                            </a>
-                          </li>
-                          <li class="featured-card__product-list-item doc-icon">
-                            <a class="featured-card__product-link" href="#">
-                              GitOps
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
                     <div class="feature-card__right-column">
                       <div class="featured-card__product-container">
                         <h3 class="featured-card__product-group-label">
@@ -1493,6 +1474,25 @@ export default function Home() {
                           <li class="featured-card__product-list-item doc-icon">
                             <a class="featured-card__product-link" href="#">
                               Create && Execute Playbook
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="feature-card__left-column">
+                      <div class="featured-card__product-container">
+                        <h3 class="featured-card__product-group-label">
+                          Event-Driven Ansible
+                        </h3>
+                        <ul class="featured-card__product-list">
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a class="featured-card__product-link" href="#">
+                              Rulebooks
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a class="featured-card__product-link" href="#">
+                              GitOps
                             </a>
                           </li>
                         </ul>
