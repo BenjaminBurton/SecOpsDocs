@@ -1075,12 +1075,10 @@ export default function Home() {
               </div>
               <div class="featured-card-container cloud-native-security">
                 <div class="featured-card-content">
-                  <h2 class="featured-card-content__label">
-                    VMware Cloud && Virtualization
-                  </h2>
+                  <h2 class="featured-card-content__label">Virtualization</h2>
                   <div class="featured-card-content__section-divider"></div>
                   <p class="featured-card-content__description">
-                    A comprehensive understanding of Virtualization.
+                    A comprehensive understanding of VMware Virtualization.
                   </p>
                   <div class="featured-card__products-container">
                     <div class="feature-card__left-column">
@@ -1090,18 +1088,12 @@ export default function Home() {
                         </h3>
                         <ul class="featured-card__product-list">
                           <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="#"
-                            >
+                            <a class="featured-card__product-link" href="#">
                               Hardware && Software
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="#"
-                            >
+                            <a class="featured-card__product-link" href="#">
                               Virtual Machine
                             </a>
                           </li>
@@ -1115,42 +1107,27 @@ export default function Home() {
                         </h3>
                         <ul class="featured-card__product-list">
                           <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="#"
-                            >
+                            <a class="featured-card__product-link" href="#">
                               Type 1
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="#"
-                            >
+                            <a class="featured-card__product-link" href="#">
                               Type 2
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="#"
-                            >
+                            <a class="featured-card__product-link" href="#">
                               Workstation
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="#"
-                            >
+                            <a class="featured-card__product-link" href="#">
                               Virtual Machine Files
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="#"
-                            >
+                            <a class="featured-card__product-link" href="#">
                               Snapshots
                             </a>
                           </li>
@@ -1164,82 +1141,52 @@ export default function Home() {
                         </h3>
                         <ul class="featured-card__product-list">
                           <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="#"
-                            >
+                            <a class="featured-card__product-link" href="#">
                               Compute Systems
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="#"
-                            >
+                            <a class="featured-card__product-link" href="#">
                               Networks
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="#"
-                            >
+                            <a class="featured-card__product-link" href="#">
                               Storage
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="#"
-                            >
+                            <a class="featured-card__product-link" href="#">
                               RAID Redundant Array of Independent Disks
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="#"
-                            >
+                            <a class="featured-card__product-link" href="#">
                               File && Block Level Storage
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="#"
-                            >
+                            <a class="featured-card__product-link" href="#">
                               DAS Direct Attached Storage
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="#"
-                            >
+                            <a class="featured-card__product-link" href="#">
                               NAS Network Attached Storage
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="#"
-                            >
+                            <a class="featured-card__product-link" href="#">
                               SAN Storage Area Network
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="#"
-                            >
+                            <a class="featured-card__product-link" href="#">
                               Storage Protocols
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="#"
-                            >
+                            <a class="featured-card__product-link" href="#">
                               Storage Provisioning
                             </a>
                           </li>
@@ -1253,90 +1200,57 @@ export default function Home() {
                         </h3>
                         <ul class="featured-card__product-list">
                           <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="#"
-                            >
+                            <a class="featured-card__product-link" href="#">
                               vSphere
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="#"
-                            >
+                            <a class="featured-card__product-link" href="#">
                               ESXi
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="#"
-                            >
+                            <a class="featured-card__product-link" href="#">
                               vCenter
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="#"
-                            >
+                            <a class="featured-card__product-link" href="#">
                               vSphere Host Client
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="#"
-                            >
+                            <a class="featured-card__product-link" href="#">
                               vSphere Client
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="#"
-                            >
+                            <a class="featured-card__product-link" href="#">
                               Server Virtualization
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="#"
-                            >
+                            <a class="featured-card__product-link" href="#">
                               Storage Virtualization
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="#"
-                            >
+                            <a class="featured-card__product-link" href="#">
                               Network Virtualization
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="#"
-                            >
+                            <a class="featured-card__product-link" href="#">
                               Virtual Network Types
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="#"
-                            >
+                            <a class="featured-card__product-link" href="#">
                               Application && Desktop Virtualization
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="#"
-                            >
+                            <a class="featured-card__product-link" href="#">
                               Convergence Physical to Virtual
                             </a>
                           </li>
@@ -1350,66 +1264,42 @@ export default function Home() {
                         </h3>
                         <ul class="featured-card__product-list">
                           <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="#"
-                            >
+                            <a class="featured-card__product-link" href="#">
                               Cloud Computing Types
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="#"
-                            >
+                            <a class="featured-card__product-link" href="#">
                               SaaS Software as a Service
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="#"
-                            >
+                            <a class="featured-card__product-link" href="#">
                               PaaS Platform as a Service
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="#"
-                            >
+                            <a class="featured-card__product-link" href="#">
                               IaaS Infrastructure as a Service
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="#"
-                            >
+                            <a class="featured-card__product-link" href="#">
                               Cloud Deployment Models
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="#"
-                            >
+                            <a class="featured-card__product-link" href="#">
                               Private && Community Clouds
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="#"
-                            >
+                            <a class="featured-card__product-link" href="#">
                               Public Clouds
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="#"
-                            >
+                            <a class="featured-card__product-link" href="#">
                               Hybrid Clouds
                             </a>
                           </li>
@@ -1423,27 +1313,235 @@ export default function Home() {
                         </h3>
                         <ul class="featured-card__product-list">
                           <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="#"
-                            >
+                            <a class="featured-card__product-link" href="#">
                               Kubernetes
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="#"
-                            >
+                            <a class="featured-card__product-link" href="#">
                               Containers in the Cloud
                             </a>
                           </li>
                           <li class="featured-card__product-list-item doc-icon">
-                            <a
-                              class="featured-card__product-link"
-                              href="#"
-                            >
+                            <a class="featured-card__product-link" href="#">
                               Container Security
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="featured-card-container cloud-native-security">
+                <div class="featured-card-content">
+                  <h2 class="featured-card-content__label">Automation</h2>
+                  <div class="featured-card-content__section-divider"></div>
+                  <p class="featured-card-content__description">
+                    A comprehensive understanding of Ansible Automation.
+                  </p>
+                  <div class="featured-card__products-container">
+                    <div class="feature-card__left-column">
+                      <div class="featured-card__product-container">
+                        <h3 class="featured-card__product-group-label">
+                          Intro
+                        </h3>
+                        <ul class="featured-card__product-list">
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a class="featured-card__product-link" href="#">
+                              Ansible Navigator
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a class="featured-card__product-link" href="#">
+                              Private Automation Hub
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a class="featured-card__product-link" href="#">
+                              Automation Controller
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a class="featured-card__product-link" href="#">
+                              DevOps && CI/CD w/ Automation Controller
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a class="featured-card__product-link" href="#">
+                              Automation on OpenShift
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a class="featured-card__product-link" href="#">
+                              Ansible-Builder
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a class="featured-card__product-link" href="#">
+                              Initial Playbook
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a class="featured-card__product-link" href="#">
+                              User Access && Content Policies
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a class="featured-card__product-link" href="#">
+                              Automation Mesh
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a class="featured-card__product-link" href="#">
+                              ServiceNow Automation
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a class="featured-card__product-link" href="#">
+                              Sign && Verify Projects
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a class="featured-card__product-link" href="#">
+                              DOD Automated Compliance
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a class="featured-card__product-link" href="#">
+                              Lightspeed w/ IBM WatsonX
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="feature-card__left-column">
+                      <div class="featured-card__product-container">
+                        <h3 class="featured-card__product-group-label">
+                          Event-Driven Ansible
+                        </h3>
+                        <ul class="featured-card__product-list">
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a class="featured-card__product-link" href="#">
+                              Rulebooks
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a class="featured-card__product-link" href="#">
+                              GitOps
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="feature-card__right-column">
+                      <div class="featured-card__product-container">
+                        <h3 class="featured-card__product-group-label">
+                          Network && Edge
+                        </h3>
+                        <ul class="featured-card__product-list">
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a class="featured-card__product-link" href="#">
+                              Backup && Restore
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a class="featured-card__product-link" href="#">
+                              Resource Modules
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a class="featured-card__product-link" href="#">
+                              Facts
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a class="featured-card__product-link" href="#">
+                              Infrastructure Awareness
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a class="featured-card__product-link" href="#">
+                              Surveys
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a class="featured-card__product-link" href="#">
+                              Playbook
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a class="featured-card__product-link" href="#">
+                              Platform && Edge
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a class="featured-card__product-link" href="#">
+                              Network Administrators
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a class="featured-card__product-link" href="#">
+                              Palo Alto Firewalls w/ AAP
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a class="featured-card__product-link" href="#">
+                              Network Validated Content
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a class="featured-card__product-link" href="#">
+                              Create && Execute Playbook
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="feature-card__right-column">
+                      <div class="featured-card__product-container">
+                        <h3 class="featured-card__product-group-label">
+                          Hybrid Cloud
+                        </h3>
+                        <ul class="featured-card__product-list">
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a class="featured-card__product-link" href="#">
+                              Microsoft Azure
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a class="featured-card__product-link" href="#">
+                              Infrastructure Visibility AWS
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a class="featured-card__product-link" href="#">
+                              Cloud Operations AWS
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a class="featured-card__product-link" href="#">
+                              Infrastructure Optimization AWS
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a class="featured-card__product-link" href="#">
+                              Terraform
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a class="featured-card__product-link" href="#">
+                              Infrastructure Visibility Azure
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a class="featured-card__product-link" href="#">
+                              Cloud Operations Azure
+                            </a>
+                          </li>
+                          <li class="featured-card__product-list-item doc-icon">
+                            <a class="featured-card__product-link" href="#">
+                              Infrastructure Optimization Azure
                             </a>
                           </li>
                         </ul>
